@@ -40,6 +40,7 @@ dependencies = [
     ('vampir/9.1', EXTERNAL_MODULE),
 ]
 
+patches = [ 'Score-P-3.0-CrayIntel-2016.11.patch' ]
 configopts  = ' --enable-shared'
 configopts += ' --with-libpmi-include=/opt/cray/pe/pmi/default/include'
 configopts += ' --with-libpmi-lib=/opt/cray/pe/pmi/default/lib64'
