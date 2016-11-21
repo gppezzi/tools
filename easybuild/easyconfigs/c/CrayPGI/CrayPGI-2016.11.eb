@@ -11,7 +11,7 @@ toolchain = {'name': 'dummy', 'version': 'dummy'}
 dependencies = [
     # PrgEnv version is not pinned, as Cray recommends to use the latest (default) version
     ('PrgEnv-pgi', EXTERNAL_MODULE),
-    ('pgi/16.7.0', EXTERNAL_MODULE),
+    ('pgi/16.9.0', EXTERNAL_MODULE),
     # ('cray-libsci/16.11.1', EXTERNAL_MODULE),
     ('cray-mpich/7.5.0', EXTERNAL_MODULE),
 ]
